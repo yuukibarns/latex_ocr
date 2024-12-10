@@ -1,0 +1,20 @@
+[project]
+name = "latex-ocr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "albumentations>=1.4.22",
+    "einops>=0.8.0",
+    "imagesize>=1.4.1",
+    "levenshtein>=0.26.1",
+    "munch>=4.0.0",
+    "opencv-python-headless>=4.10.0.84",
+    "pillow>=11.0.0",
+    "pyyaml>=6.0.2",
+    "torch>=2.5.1",
+    "torchtext>=0.18.0",
+    "transformers>=4.47.0",
+    "x-transformers==0.15.0",
+]
